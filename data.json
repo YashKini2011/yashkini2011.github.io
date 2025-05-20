@@ -1,0 +1,34 @@
+{
+  "achievements": [
+    {
+      "title": "Certified in AR-VR Development",
+      "year": 2022
+    },
+    {
+      "title": "Developed AR-VR projects",
+      "year": 2023
+    },
+    {
+      "title": "Tech fest organizer & mentor",
+      "year": 2023
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Reading",
+      "icon": "book"
+    },
+    {
+      "name": "Coding",
+      "icon": "code"
+    },
+    {
+      "name": "Cricket",
+      "icon": "baseball-ball"
+    },
+    {
+      "name": "Photography",
+      "icon": "camera"
+    }
+  ]
+}
