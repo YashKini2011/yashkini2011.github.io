@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yash Kini's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p class="typewriter"></p>
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#goals">Goals</a>
+    <a href="#personal">Personal Side</a>
+  </nav>
+
+  <section id="welcome" class="reveal">
+    <h2>Hello! 👋</h2>
+    <img src="yash.jpg" alt="Portrait of Yash Kini" class="profile-pic">
+    <p style="text-align:center;">
+      I’m <strong>Yash Kini</strong>, and
+      
+      a computer engineering enthusiast with a deep passion for tech. This portfolio isn’t just a collection of projects—it's a window into my personal journey, my technical growth, and my vision for the future.
+
+      Since beginning my academic path in computer engineering, I've found joy not only in understanding the theories behind technology but also in putting them into action. My interest spans a wide array of fields, from software development to immersive technologies like AR/VR. I see myself not just as a learner, but as a creator and problem-solver eager to make an impact.
+      
+    </p>
+  </section>
+
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <ul>
+      <li><strong>Name:</strong> Yash Kini</li>
+      <li><strong>Location:</strong> Palghar, Maharashtra, India</li>
+      <li><strong>Education:</strong> Pursuing Computer Engineering at St. John College of Engineering and Management</li>
+      <li><strong>Languages Known:</strong> C, SQL, Java</li>
+    </ul>
+  </section>
+
+   <!-- Video Section -->
+<section id="video">
+  <h2> Video</h2>
+  <div class="video-container">
+   
+    <iframe width="700" height="500" 
+        src="https://www.youtube.com/embed/hI9HQfCAw64" 
+        title="London Walk 4K HDR | Stunning Tour from Southbank to Big Ben and Covent Garden" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+</iframe>
+
+     
+    
+  </div>
+  
+</section>
+
+
+  <section id="achievements" class="reveal">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Certified in AR-VR Development</li>
+      <li>Developed AR-VR projects</li>
+    </ul>
+  </section>
+
+  <section id="goals" class="reveal">
+    <h2>Future Goals</h2>
+    <p>My goal is to become an Android Developer.</p>
+    <p>My mission is to solve real-world problems using technology and inspire the next generation of developers.</p>
+  </section>
+
+  <section id="personal" class="reveal">
+    <h2>More About Me</h2>
+    <ul>
+      <li><strong>Hobbies:</strong> Reading, Coding, Cricket</li>
+      <li><strong>Role Models:</strong> Elon Musk</li>
+      <li><strong>Books:</strong> "Atomic Habits"</li>
+      <li><strong>Websites:</strong> freeCodeCamp, Medium</li>
+      <li><strong>Startups I admire:</strong> CRED</li>
+      <li><strong>Volunteering Experience:</strong> Tech fest organizer & mentor</li>
+    </ul>
+  </section>
+
+   <!-- Location Section -->
+<section id="location">
+  <h2>My Location</h2>
+  <p>Currently located in Wada, Palghar, Maharashtra, India.</p>
+  <div class="map-container">
+    <!-- Embed Google Maps iframe for location -->
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6889.349367585973!2d72.76604926653468!3d19.693692887952857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71cc292953111%3A0x78545121a702a7fe!2sBajpai%20Wada%20Rd%2C%20Vishnu%20Nagar%2C%20Palghar%2C%20Maharashtra%20401404!5e0!3m2!1sen!2sin!4v1747735842424!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  
+  <!-- Contact Form -->
+  <form action="submit_form.php" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
+</section>
+
+  <footer>
+    <p>© 2025 Yash Kini | Email: <a href="mailto:123yash2071@sjcem.edu.in">123yash2071@sjcem.edu.in</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
